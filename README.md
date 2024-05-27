@@ -40,8 +40,8 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 
 1. **Clone the Repository**
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/Mihirjataniya/Learning_Management_system.git
+   cd Learning_Management_system
    ```
 
 2. **Install Dependencies**
@@ -51,18 +51,21 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 
 3. **Environment Variables**
    Copy the provided `.env.example` to `.env` and fill in the necessary values.
+   ```sh
+   cp .env.example .env
+   ```
 
-4. **Run Database Migrations**
+5. **Run Database Migrations**
    ```sh
    npx prisma migrate dev
    ```
 
-5. **Start the Development Server**
+6. **Start the Development Server**
    ```sh
    npm run dev
    ```
 
-6. **Access the Application**
+7. **Access the Application**
    Open your browser and navigate to `http://localhost:3000`.
 
 ## Project Structure
