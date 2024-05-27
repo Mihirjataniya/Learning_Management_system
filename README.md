@@ -67,12 +67,38 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 
 ## Project Structure
 
-- **/pages**: Contains all the Next.js pages for routing.
-- **/components**: Reusable UI components.
-- **/lib**: Configuration files and utility functions.
-- **/prisma**: Prisma schema and migration files.
-- **/public**: Static assets like images and icons.
-- **/styles**: Global styles and CSS modules.
+- **/.next**: Next.js build output
+- **/actions**: Contains server-side action handlers
+- **/app**: Main application code
+  - **/(auth)**: Authentication related pages and components
+    - **(routes)**: Routes for authentication
+    - **layout.tsx**: Layout for authentication pages
+  - **/(course)**: Course-related pages and components
+    - **courses**: Course pages with dynamic routing
+      - **[courseId]**
+        - **_components**: Components specific to a course
+        - **chapters**: Components for handling chapters within a course
+        - **layout.tsx**: Layout for course pages
+        - **page.tsx**: Main course page
+  - **/(dashboard)**: Dashboard-related pages and components
+    - **_components**: Components specific to the dashboard
+    - **(routes)**: Routes for dashboard
+    - **layout.tsx**: Layout for dashboard pages
+  - **/api**: API routes
+  - **favicon.ico**: Favicon for the application
+  - **globals.css**: Global CSS styles
+  - **layout.tsx**: Main layout file
+- **/components**: Reusable UI components
+  - **/models**: Data models used in the application
+  - **/providers**: Providers for context and state management
+  - **/ui**: User interface components
+- **/hooks**: Custom hooks
+- **/lib**: Configuration files and utility functions
+- **/node_modules**: Node.js modules
+- **/prisma**: Prisma schema and migration files
+- **/public**: Static assets like images and icons
+- **/scripts**: Utility scripts
+- **.env.example**: Example environment variables file
 
 ## How to Use
 
@@ -94,9 +120,7 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 
 Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality and improve the platform.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -110,4 +134,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-This project was developed for learning purposes only.
+This project was developed for learning purposes only and is not intended for production use.
