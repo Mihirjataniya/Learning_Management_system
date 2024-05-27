@@ -129,7 +129,7 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 ---
 
 
-This project was developed for learning purposes only and is not intended for production use.
-=======
+This project was developed for learning purposes only.
+===
 
 
