@@ -116,15 +116,6 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 4. Access course content, including videos and materials, through the student dashboard.
 5. Complete course and track progress.
 
-## Contributions
-
-Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality and improve the platform.
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> ad24d34cefb9e8013ea6e2495700d7b1391ad862
 ## Acknowledgements
 
 - [Next.js](https://nextjs.org/)
@@ -137,8 +128,8 @@ Contributions are welcome! Feel free to submit issues or pull requests to enhanc
 
 ---
 
-<<<<<<< HEAD
+
 This project was developed for learning purposes only and is not intended for production use.
 =======
-This project was developed for learning purposes only.
->>>>>>> ad24d34cefb9e8013ea6e2495700d7b1391ad862
+
+
