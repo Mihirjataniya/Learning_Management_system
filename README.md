@@ -94,10 +94,6 @@ This Learning Management System (LMS) platform is developed using Next.js and se
 
 Contributions are welcome! Feel free to submit issues or pull requests to enhance the functionality and improve the platform.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
 ## Acknowledgements
 
 - [Next.js](https://nextjs.org/)
